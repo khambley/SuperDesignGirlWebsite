@@ -33,7 +33,7 @@
                             <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
@@ -83,9 +83,9 @@
                     <div class="card servicesText">
                         <div class="card-body">
                             <i class="fas servicesIcon fa-clock"></i>
-                            <h4 class="card-title mt-3">iOS and Android App Development</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <h4 class="card-title mt-3">Mobile App Development</h4>
+                            <p class="card-text mt-3">
+                                I have over 10 years experience working in mobile development for various companies as well as my own apps. I have the experience working with Xamarin, as well as .NET MAUI, Xamarin's replacement. I have experience in other frameworks, React Native, Flutter, and the native iOS and Android code.
                             </p>
                         </div>
                     </div>  
@@ -95,7 +95,7 @@
                         <div class="card-body">
                             <i class='fas servicesIcon fa-layer-group'></i>
                             <h4 class="card-title mt-3">Full-Stack Web Development</h4>
-                            <p class="card-text mt-3">Over 20 years experience working with the Microsoft .NET framework, SQL Server, and over 10 years experience working with Azure cloud-based platform.
+                            <p class="card-text mt-3">Over 20 years experience working with the Microsoft .NET framework, C#, SQL Server, and over 10 years experience working with the Azure cloud-based platform. I've built hundreds of web applications for various clients.
                             </p>
                         </div>
                     </div>  
@@ -106,8 +106,7 @@
                         <div class="card-body">
                             <i class='far servicesIcon fa-check-circle'></i>
                             <h4 class="card-title mt-3">API & Middleware Development</h4>
-                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            <p class="card-text mt-3">I've built and maintained many APIs using the .NET framework as well as node.js. I've deployed to Azure and AWS and built scripts in Apigee for API management. I've been on several data integration projects and built middleware and backend systems to connect client applications.
                             </p>
                         </div>
                     </div>  
@@ -117,40 +116,92 @@
             
         </div>
     </section>
-        <!-- Content section 2-->
-        <!-- <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/02.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">We salute you!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-5">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/compassmobilemap.png" alt="Compass Mobile App image" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">Compass Mobile App</h4>
+                            <p class="card-text">I was brought into <a href="https://www.comed.com/" target="_blank">ComEd</a>, an Exelon company, to revamp their existing Compass Mobile app. I ended up rebuilding the app and migrated it to the .NET MAUI framework. It is currently in production with some new features added: multi-factor authentication and biometric login for both iOS and Android platforms.<br />
+                            I used Xamarin.Forms cross-platform framework targeting iOS and Android, then migrated the project to .NET MAUI 8 and used Google Maps API for location search.</p>
+                            <div class="text-center">
+                                <!-- <a href="#" class="btn btn-success">Link</a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section> -->
-        <!-- Content section 3-->
-        <!-- <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/03.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="assets/img/myfabrictrackerdashboard.png" alt="MyFabricTracker App image" style="width:50%">
+                        <div class="card-body">
+                            <h4 class="card-title">MyFabricTracker App</h4>
+                            <p class="card-text">This is an app I created to help hobbyists track their personal fabric inventory so their fabric stash is always with them on their mobile device. Just take a photo of the fabric, enter the details, how many yards you have, and you've got your stash at your fingertips! You can categorize your fabrics, keep track of quilt shops you've visited, and backup your data and send your backups anywhere! The app is currently in review to be published in the Apple and Google Play stores.</p>
+                            <div class="text-center">
+                                <!-- <a href="#" class="btn btn-success">Link</a> -->
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="assets/img/myridetrackerwebsite.png" alt="MyRideTracker web page image" style="width:100%">
+                        <img class="card-img-top" src="assets/img/myridetrackerwebsite2.png" alt="MyRideTracker web page image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">MyRideTracker Website</h4>
+                            <p class="card-text">This was a pet project of mine so I could learn and get familiar with .NET Core and Azure. I purchased a motorcycle in 2019 and wanted to keep track of my rides, gas mileage and service appointments. I used full-stack .NET Core 3.1, SQL Server, C# and deployed to Azure. I used bootstrap 5 for the front-end design.</p>
+                            <div class="text-center">
+                                <a href="https://myridetracker.net/" class="btn btn-success" target="_blank">My Ride Tracker Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        </section> -->
+            <p>*These project are just a few highlights of the many projects I've worked on over the years. I'm always working on the side, producing apps to help keep up with the latest technologies and trends in app development. App development is a really fun, creative process that I enjoy doing in my spare time as well.</p>
+            <br>
+    </section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-5 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Kenosha,+WI,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div>
+                        <a class="my-codefor-googlemap" href="https://kbj9qpmy.com/hrn" id="get-map-data">InMotion Hosting</a><style>#embed-ded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form action="https://formspree.io/f/mayrygga" method="POST">
+                        <input type="text" name="name" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" name="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" name="subject" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea name="message" class="form-control" rows="5" id="comment" placeholder="Type in your message here."></textarea>
+                        </div>
+                    <!-- your other form fields go here -->
+                    <button type="submit"class="btn btn-success mt-3">Contact Me</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+        
         <!-- Footer-->
-        <footer class="py-5 bg-black">
+        <footer class="py-5 bg-black mt-3">
             <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy;SuperDesignGirl, LLC 2024</p></div>
         </footer>
         <!-- Bootstrap core JS-->
